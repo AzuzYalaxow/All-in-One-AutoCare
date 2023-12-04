@@ -17,5 +17,5 @@ This project will be built with Python since it's simple and easy to adapt with 
 ### Cleaning features
 * Vehicle scheduling: Schedule vehicles for cleaning weekley or monthley
 * Cleaning task management: Assign and track cleaning tasks
-#Link to view process in notion
+# Link to view process in notion
 https://www.notion.so/Software-Development-Assignmen-41a178eab49a46e19de037c326bf7ec2?pvs=4
