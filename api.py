@@ -38,7 +38,7 @@ def download_car_image(api_key, query, count=1, save_path='images'):
         print(f"Error {response.status_code}: {data['error']['message']}")
 
 
-bing_api_key = '9588495c445641cdac8906e3fbf9810c'
+bing_api_key = 'Not sharing this sorry'
 search_query = 'audi rs7 black'
 
 download_car_image(bing_api_key, search_query)
