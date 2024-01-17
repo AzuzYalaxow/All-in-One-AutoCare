@@ -15,6 +15,9 @@ def download_car_image(api_key, query, count=1, save_path='images'):
         'imageType': 'Photo',
     }
 
+    # Using a lambda function as a parameter and return value
+    get_filename = lambda i, ext: f"{query}_{i + 1}.{ext}"
+
     response = requests.get(endpoint, headers=headers, params=params)
     data = response.json()
 
@@ -25,7 +28,7 @@ def download_car_image(api_key, query, count=1, save_path='images'):
         for i, image in enumerate(data['value']):
             image_url = image['contentUrl']
             image_extension = image_url.split('.')[-1]
-            image_filename = f"{query}_{i + 1}.{image_extension}"
+            image_filename = get_filename(i, image_extension)
             image_path = os.path.join(save_path, image_filename)
 
             image_content = requests.get(image_url).content
@@ -37,8 +40,8 @@ def download_car_image(api_key, query, count=1, save_path='images'):
     else:
         print(f"Error {response.status_code}: {data['error']['message']}")
 
-
-bing_api_key = 'Not sharing this sorry'
+# Example Usage
+bing_api_key = '9588495c445641cdac8906e3fbf9810c'
 search_query = 'audi rs7 black'
 
 download_car_image(bing_api_key, search_query)
