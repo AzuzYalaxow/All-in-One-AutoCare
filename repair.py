@@ -90,8 +90,8 @@ class CarRepair:
     def close_connection(self):
         self.conn.close()
 
-# Example usage:
-if __name__ == "__main__":
+
+def main_repair():
     car_repair_manager = CarRepair()
 
     while True:
