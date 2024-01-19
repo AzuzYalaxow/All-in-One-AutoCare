@@ -102,9 +102,9 @@ def get_car_info():
     damage = input("Enter car damage status: ")
     return name, year, color, mileage, transmission, fuel, price, damage
 
-# Example Usage with user input
-if __name__ == "__main__":
-    car_rent = CarRent()
+
+car_rent = CarRent()
+def main_rent():
     while True:
         print("\n1. Add Car\n2. Rent Car\n3. Update Car\n4. Display Inventory\n5. Display rented\n6. Exit")
         choice = input("Enter your choice (1-6): ")
