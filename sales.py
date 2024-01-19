@@ -69,10 +69,9 @@ def get_car_info():
     price = float(input("Enter car price: ").replace(',',''))
     return name, year, color, mileage, power, transmission, fuel, price
 
-# Example Usage with user input
-if __name__ == "__main__":
-    car_sales = CarSales()
+car_sales = CarSales()
 
+def main_sale():
     while True:
         print("\n1. Add Car\n2. Sell Car\n3. Update Car\n4. Display Inventory\n5. Exit")
         choice = input("Enter your choice (1-5): ")
