@@ -1,21 +1,28 @@
 # All-in-One-AutoCare
 This is a project for cars management system, it provides services like selling, renting, cleaning and repair for cars. 
 ## Project description 
-This project will be built with Python since it's simple and easy to adapt with and also because I never built a management system with python eventhough I used it alot which will be interesting for me, the project database will be SQLite rather than MySQL or MSSQL that I am familiar with. The project will be based on command-line interface but if plenty time is left I will add GUI using Tkinter.
-# Features
-### General feature
-* Reporting and analytics: Create reports on cars sales, rents, repairs and cleans also generate employee of the month for each section.
-### Sales features
-* Vehicle inventory management: Track vehicle inventory and most sold car
-* Price flexibility: Depending on the negotiation of price, the initial price can be changed.
-### Rental features
-* Vehicle reservation management: Allow emplyee to reserve vehicles for customers
-* Damage reporting management: Track and record damage to rental vehicles
-### Repair features
-* Service request management: Enable employees to submit service requests
-* Repair order management: Create and manage repair orders and issue a date depending on the damage
-### Cleaning features
-* Vehicle scheduling: Schedule vehicles for cleaning weekley or monthley
-* Cleaning task management: Assign and track cleaning tasks
-# Link to view process in notion
+The "All-in-One AutoCare Management System" is a feature-rich and adaptable Python project created to automate and simplify a number of management tasks. This complex system combines many modules to handle personnel administration, sales, rentals, repairs, cleaning schedules, and dynamic picture retrieval via external APIs. The "All-in-One AutoCare Management System" is a comprehensive system that provides effective management and enhanced operational workflows to meet the various demands of companies in the automotive sector.
+
+# 1.
+# 2. UML Design
+### 2.1 Use Case Diagram:
+This diagram illustrates the interactions between system actors - Salesperson, RentalManager, Cleaner, and Mechanic - and various use cases such as selling, adding, renting, reporting, cleaning, repairing, and reporting damage to cars. The arrows denote relationships, outlining the flow of actions within the car management system.
+
+### 2.2 Class Diagram:
+This visual representation showcases the structure of the system's classes, emphasizing relationships between the Car class and Customer/Employee classes. Car attributes include make, model, year, condition, price, mileage, and color. The diagram clarifies how Car inherits properties from both Customer and Employee classes.
+
+### 2.3 Activity Diagrams:
+#### Sales Activity:
+The diagram outlines the steps within the car sales process, from initializing the CarSales object to managing menu options, handling user input, and updating the inventory. The loop ensures continuous operation until the user decides to exit.
+
+#### Repair Activity:
+This activity diagram delineates the steps involved in car repair, covering processes like adding cars to repair, marking them as repaired, and displaying relevant information. The loop ensures continuous operation until the user opts to close the database connection.
+
+#### Rent Activity:
+This diagram captures the sequential steps in the car rental process, including adding cars to inventory, renting them out, updating information, and managing rented cars. Similar to other activity diagrams, it operates in a loop until the user chooses to exit.
+
+#### Clean Activity:
+The diagram depicts the cleaning process, allowing users to record, mark, and schedule cleaning activities. The loop ensures ongoing operation until the user decides to exit, providing a clear overview of the cleaning management system.
+### Link to view diagrams in notion:
 https://www.notion.so/Software-Development-Assignmen-41a178eab49a46e19de037c326bf7ec2?pvs=4
+
