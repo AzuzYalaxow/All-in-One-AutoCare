@@ -24,6 +24,7 @@ This diagram captures the sequential steps in the car rental process, including 
 #### Clean Activity:
 The diagram depicts the cleaning process, allowing users to record, mark, and schedule cleaning activities. The loop ensures ongoing operation until the user decides to exit, providing a clear overview of the cleaning management system.
 ### Link to view diagrams in notion:
+
 https://www.notion.so/Software-Development-Assignmen-41a178eab49a46e19de037c326bf7ec2?pvs=4
 
 # 3. Requirements Engineering
@@ -31,11 +32,15 @@ https://www.notion.so/Software-Development-Assignmen-41a178eab49a46e19de037c326b
 This link defines the essential features for an All-in-one Auto Care Management System, encompassing sales, rental, repair, cleaning, employee management, and authentication. Using RFC 2119 terminology, it establishes mandatory (MUST), desirable (SHOULD), and optional (MAY) functionalities. The outlined modules cover inventory management, rental tracking, repair queue, cleaning records, employee details, and secure user authentication. Integration with an online payment gateway is suggested, offering a comprehensive solution for efficient autocare operations, satisfying system users.
 https://www.notion.so/Q3-e411e16ea4234d1083cdb60e0e8fe477?pvs=4
 
+
 prevousely I have done another requirement engineering, but it wasn't in the RFC 2119 format.
 https://www.notion.so/3-1cd32c6215834de7a47b5e176b88bd90?pvs=4
 
+
 ### B) Jira
 The all-in-one autocare Management System is described in detail in this Jira task breakdown. Various modules, including sales, renting, maintenance, cleaning, administration, and authentication, are included in the tasks. Every operation, from building database tables to putting employee interfaces in place, advances the effeciance of the system. Using Jira guarantees more effective project tracking, enabling productive teamwork and progress reporting. The development team (me) can handle required, desired, and optional features in-depth thanks to the thorough breakdown, which helps the system meet user and stakeholder expectations.
+
+https://azuz.atlassian.net/jira/software/c/projects/AIOAS/boards/2?atlOrigin=eyJpIjoiMTMwNDZjZTFhZTI1NDMxYTk0ODEzOGFhODgzYzI5YWUiLCJwIjoiaiJ9
 
 
 # 4. Analysis
