@@ -45,17 +45,44 @@ https://azuz.atlassian.net/jira/software/c/projects/AIOAS/boards/2?atlOrigin=eyJ
 
 # 4. Analysis
 ### A) Checklist
-This checklist was done based on my prevouse experciance with other projects and analysing their requirements. 
+This checklist was done based on my previous experience with other projects and analyzing their requirements. 
 1.	Goals 
 2.	Vision 
 3.	Scope 
 4.	Importance 
-5.	Market analysis (Describe target, competition, similar product / service)
-6.	Requirement analysis (Feasibility study, Technical feasibility, Technical feasibility, Operational feasibility, Schedule feasibility, Schedule feasibility
+5.	Market analysis (Describe target, competition, similar product/service)
+6.	Requirement analysis (Feasibility study, Technical feasibility, Operational feasibility, Schedule feasibility
 7.	Requirement Specification (New Proposed System, Solution Strategy, System Requirement Specification)
 8.	Test Concepts / Test-Plans
-9.	Milestone Management(jira)
+9.	Milestone Management(Jira)
 
 ### B) Complete checklist
-The same checklist was used to write 3 pages that detail's all the points mentioned. 
+The same checklist was used to write 3 pages that detail all the points mentioned. 
 https://www.notion.so/4B-20afb4d4d2b84320bc7c4facd563cd06?pvs=4
+
+
+
+# 5. DDD
+Using visual event storming, I created a Domain-Driven Design (DDD) to discover and analyze important domains. mapped and displayed the relationships also used the Core Domain Chart. This strategic method facilitates informed decision-making for development by offering a clear grasp of the system's structure.
+Here is the miro link : https://miro.com/app/board/uXjVN90-ZlE=/?share_link_id=47798433560
+
+
+
+# 6. Metrics
+I have used two methods of metrics for Python which were Pylint and Radon, they are straightforward to use and also have a lot of functionalities and power in terms of code.
+Link for the notion: https://www.notion.so/6-0c63cdb903914ec48aedd6598f73067d?pvs=4
+
+
+
+# 7. Clean Code Development
+After using Pylint and Radon it was easy to write some points of how clean my code is compared to my previous code and also previous attempts to write clean code, even though reaching 100% clean code is almost impossible it is a learning journey.
+Link for the notion: https://www.notion.so/7-ffb8ee33541b4f468c4d7a23f6f7f9e5?pvs=4
+
+
+
+# 8. Build Management
+Initially is started learning build management using Pybuilder and Pants, I have spent a lot of time learning Pants as mentioned in personal experience. Still, eventually, I stuck up with Pybuilder.
+
+# 9. Unit tests
+I created two unittests for "sales.py" in Pybuilder by referencing some examples from youtube and also with the help of chatgpt and using the unittest library.
+https://www.notion.so/9-61b4ed79aeb9416c84a870c200f71e5d?pvs=4
