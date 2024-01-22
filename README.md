@@ -123,7 +123,7 @@ By utilizing final data structures, primarily side-effect-free functions, and hi
 Link to notion: https://www.notion.so/11-cf3b48282e0649d283164825c306bbd8?pvs=4
 
 
-
+# Personal experience
 lastly, this is my personal experience and what I have encountered, it might not be much be I hope it's enough.
 
 Link to notion: https://www.notion.so/My-Personal-Experience-0f79832fe60f457ab81fddd8e95d4168?pvs=4
