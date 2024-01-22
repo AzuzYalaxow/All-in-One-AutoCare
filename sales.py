@@ -1,5 +1,6 @@
 import sqlite3
 from prettytable import PrettyTable
+from api import download_car_image
 
 class CarSales:
     def __init__(self, db_name="aioa.db"):
@@ -30,6 +31,7 @@ class CarSales:
         '''
         self.conn.execute(query, car_data)
         self.conn.commit()
+        download_car_image("9588495c445641cdac8906e3fbf9810c", f"{car_data[0]} {car_data[1]} {car_data[2]}")
 
     def sell_car(self, car_id):
         query = '''
