@@ -3,7 +3,14 @@ This is a project for cars management system, it provides services like selling,
 ## Project description 
 The "All-in-One AutoCare Management System" is a feature-rich and adaptable Python project created to automate and simplify a number of management tasks. This complex system combines many modules to handle personnel administration, sales, rentals, repairs, cleaning schedules, and dynamic picture retrieval via external APIs. The "All-in-One AutoCare Management System" is a comprehensive system that provides effective management and enhanced operational workflows to meet the various demands of companies in the automotive sector.
 
-# 1.
+
+
+# 1. GitHub
+I have been using GitHub this year but so far what I have used is the browser version because it was what I started with, but so far I am learning the commands of GitHub.
+Link for notion: https://www.notion.so/1-158ecd3e8dea44d4afc54fb35b0979dc?pvs=4
+
+
+
 # 2. UML Design
 ### 2.1 Use Case Diagram:
 This diagram illustrates the interactions between system actors - Salesperson, RentalManager, Cleaner, and Mechanic - and various use cases such as selling, adding, renting, reporting, cleaning, repairing, and reporting damage to cars. The arrows denote relationships, outlining the flow of actions within the car management system.
@@ -25,7 +32,9 @@ This diagram captures the sequential steps in the car rental process, including 
 The diagram depicts the cleaning process, allowing users to record, mark, and schedule cleaning activities. The loop ensures ongoing operation until the user decides to exit, providing a clear overview of the cleaning management system.
 ### Link to view diagrams in notion:
 
-https://www.notion.so/Software-Development-Assignmen-41a178eab49a46e19de037c326bf7ec2?pvs=4
+Link for notion: https://www.notion.so/Software-Development-Assignmen-41a178eab49a46e19de037c326bf7ec2?pvs=4
+
+
 
 # 3. Requirements Engineering
 ### A) Notion.so
@@ -41,6 +50,7 @@ https://www.notion.so/3-1cd32c6215834de7a47b5e176b88bd90?pvs=4
 The all-in-one autocare Management System is described in detail in this Jira task breakdown. Various modules, including sales, renting, maintenance, cleaning, administration, and authentication, are included in the tasks. Every operation, from building database tables to putting employee interfaces in place, advances the effeciance of the system. Using Jira guarantees more effective project tracking, enabling productive teamwork and progress reporting. The development team (me) can handle required, desired, and optional features in-depth thanks to the thorough breakdown, which helps the system meet user and stakeholder expectations.
 
 https://azuz.atlassian.net/jira/software/c/projects/AIOAS/boards/2?atlOrigin=eyJpIjoiMTMwNDZjZTFhZTI1NDMxYTk0ODEzOGFhODgzYzI5YWUiLCJwIjoiaiJ9
+
 
 
 # 4. Analysis
@@ -81,8 +91,27 @@ Link for the notion: https://www.notion.so/7-ffb8ee33541b4f468c4d7a23f6f7f9e5?pv
 
 
 # 8. Build Management
-Initially is started learning build management using Pybuilder and Pants, I have spent a lot of time learning Pants as mentioned in personal experience. Still, eventually, I stuck up with Pybuilder.
+Initially, Pybuilder and Pants were used to understand build management, but Pybuilder was preferred because of its superior documentation. Issues with Pybuilder's error feedback were fixed by making necessary directory adjustments. After a full day of debugging, the build was successfully finished.
+Link for notion: https://www.notion.so/8-0b67f9d897c942a8995987caca0bb759?pvs=4
+
+
 
 # 9. Unit tests
 I created two unittests for "sales.py" in Pybuilder by referencing some examples from youtube and also with the help of chatgpt and using the unittest library.
 https://www.notion.so/9-61b4ed79aeb9416c84a870c200f71e5d?pvs=4
+
+
+# 10. IDE
+"VSCode is my preferred programming editor—simple, versatile, and compatible with every language. Over 5 years, I've relied on its extensive extensions for tasks like AI and code formatting, using it for projects from my graduation work to mobile apps, websites, and cybersecurity tools. It consistently tops the list of best programming editors."
+Link to notion: https://www.notion.so/10-751ac898c56449cfae857c537e0d7262?pvs=4
+
+
+
+# 11. Functional Programming
+By utilizing final data structures, primarily side-effect-free functions, and higher-order functions, my work complies with functional programming standards. I use closures for modularity and encapsulation, and I use functions as arguments and return values.
+Link to notion: https://www.notion.so/11-cf3b48282e0649d283164825c306bbd8?pvs=4
+
+
+
+lastly, this is my personal experience and what I have encountered, it might not be much be I hope it's enough.
+Link to notion: https://www.notion.so/My-Personal-Experience-0f79832fe60f457ab81fddd8e95d4168?pvs=4
