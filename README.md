@@ -53,7 +53,8 @@ https://slow-gum-c20.notion.site/3-1cd32c6215834de7a47b5e176b88bd90?pvs=4
 The all-in-one autocare Management System is described in detail in this Jira task breakdown. Various modules, including sales, renting, maintenance, cleaning, administration, and authentication, are included in the tasks. Every operation, from building database tables to putting employee interfaces in place, advances the effeciance of the system. Using Jira guarantees more effective project tracking, enabling productive teamwork and progress reporting. The development team (me) can handle required, desired, and optional features in-depth thanks to the thorough breakdown, which helps the system meet user and stakeholder expectations.
 
 https://azuz.atlassian.net/jira/software/c/projects/AIOAS/boards/2?atlOrigin=eyJpIjoiMTMwNDZjZTFhZTI1NDMxYTk0ODEzOGFhODgzYzI5YWUiLCJwIjoiaiJ9
-
+In case Jira doesn't work this is an alternative. 
+https://slow-gum-c20.notion.site/3B-b2693be1f2ca4ca4b2137d46feb40b8e?pvs=4
 
 
 # 4. Analysis
